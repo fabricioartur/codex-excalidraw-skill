@@ -6,6 +6,14 @@ I built this project to explore how far Codex skills can go beyond static file g
 
 This is not a copy of an existing skill. It is my own implementation, designed through hands-on iteration, testing, and refinement inside Codex.
 
+## Example Output
+
+This is an example generated with the skill: an editable Excalidraw-style tactical diagram for Brazil's 2026 FIFA World Cup squad.
+
+![Brazil National Team FIFA World Cup 2026 Excalidraw example](examples/brazil-world-cup-2026-official-squad/brazil-world-cup-2026-official-squad-preview.svg)
+
+The diagram is generated as structured Excalidraw data, so it can be opened, edited, and iterated instead of being treated as a static screenshot.
+
 ## What It Does
 
 - Creates editable Excalidraw diagrams from natural-language requests.
