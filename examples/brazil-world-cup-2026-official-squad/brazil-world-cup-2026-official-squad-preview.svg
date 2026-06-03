@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1320" viewBox="0 0 2200 1320">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="1100" y="70" text-anchor="middle" font-family="Inter, Arial" font-size="44" font-weight="800" fill="#0f9f3f">Brazil National Team — FIFA World Cup 2026</text>
+<text x="1100" y="112" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="700" fill="#6b7280">Official 26-player squad submitted to FIFA | Head coach: Carlo Ancelotti</text>
+<rect x="70" y="150" width="1320" height="840" rx="34" fill="#166534" stroke="#16a34a" stroke-width="6"/>
+<line x1="70" y1="570" x2="1390" y2="570" stroke="#bbf7d0" stroke-width="3" opacity="0.8"/>
+<rect x="495" y="150" width="470" height="120" rx="16" fill="none" stroke="#bbf7d0" stroke-width="2" opacity="0.75"/>
+<rect x="495" y="870" width="470" height="120" rx="16" fill="none" stroke="#bbf7d0" stroke-width="2" opacity="0.75"/>
+<ellipse cx="730" cy="250" rx="72" ry="46" fill="#f59e0b" stroke="#92400e" stroke-width="5"/>
+<text x="730" y="258" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#451a03">Alisson</text>
+<ellipse cx="230" cy="420" rx="72" ry="46" fill="#bfdbfe" stroke="#2563eb" stroke-width="5"/>
+<text x="230" y="428" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#1e3a8a">Wesley</text>
+<ellipse cx="540" cy="420" rx="72" ry="46" fill="#bfdbfe" stroke="#2563eb" stroke-width="5"/>
+<text x="540" y="428" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#1e3a8a">Bremer</text>
+<ellipse cx="850" cy="420" rx="72" ry="46" fill="#bfdbfe" stroke="#2563eb" stroke-width="5"/>
+<text x="850" y="428" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#1e3a8a">Marquinhos</text>
+<ellipse cx="1160" cy="420" rx="72" ry="46" fill="#bfdbfe" stroke="#2563eb" stroke-width="5"/>
+<text x="1160" y="428" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#1e3a8a">Alex Sandro</text>
+<ellipse cx="470" cy="590" rx="72" ry="46" fill="#ddd6fe" stroke="#7c3aed" stroke-width="5"/>
+<text x="470" y="598" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#4c1d95">Casemiro</text>
+<ellipse cx="730" cy="590" rx="72" ry="46" fill="#ddd6fe" stroke="#7c3aed" stroke-width="5"/>
+<text x="730" y="598" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#4c1d95">Bruno G.</text>
+<ellipse cx="990" cy="590" rx="72" ry="46" fill="#ddd6fe" stroke="#7c3aed" stroke-width="5"/>
+<text x="990" y="598" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#4c1d95">Paqueta</text>
+<ellipse cx="330" cy="750" rx="72" ry="46" fill="#bbf7d0" stroke="#16a34a" stroke-width="5"/>
+<text x="330" y="758" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#14532d">Raphinha</text>
+<ellipse cx="730" cy="735" rx="72" ry="46" fill="#fecaca" stroke="#dc2626" stroke-width="5"/>
+<text x="730" y="743" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#991b1b">Neymar Jr</text>
+<ellipse cx="1130" cy="750" rx="72" ry="46" fill="#bbf7d0" stroke="#16a34a" stroke-width="5"/>
+<text x="1130" y="758" text-anchor="middle" font-family="Inter, Arial" font-size="25" font-weight="800" fill="#14532d">Vini Jr</text>
+<text x="730" y="835" text-anchor="middle" font-family="Inter, Arial" font-size="30" font-weight="800" fill="#dcfce7">Probable shape: 4-2-3-1 / 4-3-3</text>
+<text x="730" y="1058" text-anchor="middle" font-family="Inter, Arial" font-size="23" font-weight="700" fill="#065f46">Official squad list; starting XI is an illustrative tactical arrangement.</text>
+<rect x="1440" y="150" width="690" height="840" rx="28" fill="#1f2333" stroke="#60a5fa" stroke-width="4"/>
+<text x="1785" y="205" text-anchor="middle" font-family="Inter, Arial" font-size="32" font-weight="800" fill="#ffffff">Full roster by position</text>
+<text x="1470" y="250" font-family="Inter, Arial" font-size="27" font-weight="800" fill="#f59e0b">Goalkeepers</text>
+<rect x="1470" y="266" width="610" height="42" rx="8" fill="none" stroke="#f59e0b" stroke-width="2.4"/>
+<text x="1775.0" y="294" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#f59e0b">Alisson</text>
+<rect x="1470" y="320" width="610" height="42" rx="8" fill="none" stroke="#f59e0b" stroke-width="2.4"/>
+<text x="1775.0" y="348" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#f59e0b">Weverton</text>
+<rect x="1470" y="374" width="610" height="42" rx="8" fill="none" stroke="#f59e0b" stroke-width="2.4"/>
+<text x="1775.0" y="402" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#f59e0b">Ederson</text>
+<text x="1470" y="452" font-family="Inter, Arial" font-size="27" font-weight="800" fill="#60a5fa">Defenders</text>
+<rect x="1470" y="468" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1620.0" y="496" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Wesley</text>
+<rect x="1788" y="468" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1938.0" y="496" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Gabriel Magalhaes</text>
+<rect x="1470" y="522" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1620.0" y="550" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Marquinhos</text>
+<rect x="1788" y="522" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1938.0" y="550" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Alex Sandro</text>
+<rect x="1470" y="576" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1620.0" y="604" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Danilo</text>
+<rect x="1788" y="576" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1938.0" y="604" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Bremer</text>
+<rect x="1470" y="630" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1620.0" y="658" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Leo Pereira</text>
+<rect x="1788" y="630" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1938.0" y="658" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Douglas Santos</text>
+<rect x="1470" y="684" width="300" height="42" rx="8" fill="none" stroke="#60a5fa" stroke-width="2.4"/>
+<text x="1620.0" y="712" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#60a5fa">Roger Ibanez</text>
+<text x="1470" y="762" font-family="Inter, Arial" font-size="27" font-weight="800" fill="#a78bfa">Midfielders</text>
+<rect x="1470" y="778" width="610" height="42" rx="8" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+<text x="1775.0" y="806" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#a78bfa">Casemiro</text>
+<rect x="1470" y="832" width="610" height="42" rx="8" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+<text x="1775.0" y="860" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#a78bfa">Bruno Guimaraes</text>
+<rect x="1470" y="886" width="610" height="42" rx="8" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+<text x="1775.0" y="914" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#a78bfa">Fabinho</text>
+<rect x="1470" y="940" width="610" height="42" rx="8" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+<text x="1775.0" y="968" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#a78bfa">Danilo Santos</text>
+<rect x="1470" y="994" width="610" height="42" rx="8" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+<text x="1775.0" y="1022" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#a78bfa">Lucas Paqueta</text>
+<text x="1470" y="1072" font-family="Inter, Arial" font-size="27" font-weight="800" fill="#22c55e">Forwards</text>
+<rect x="1470" y="1088" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1620.0" y="1116" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Vinicius Junior</text>
+<rect x="1788" y="1088" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1938.0" y="1116" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Matheus Cunha</text>
+<rect x="1470" y="1142" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1620.0" y="1170" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Neymar Jr</text>
+<rect x="1788" y="1142" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1938.0" y="1170" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Raphinha</text>
+<rect x="1470" y="1196" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1620.0" y="1224" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Endrick</text>
+<rect x="1788" y="1196" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1938.0" y="1224" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Luiz Henrique</text>
+<rect x="1470" y="1250" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1620.0" y="1278" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Gabriel Martinelli</text>
+<rect x="1788" y="1250" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1938.0" y="1278" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Igor Thiago</text>
+<rect x="1470" y="1304" width="300" height="42" rx="8" fill="none" stroke="#22c55e" stroke-width="2.4"/>
+<text x="1620.0" y="1332" text-anchor="middle" font-family="Inter, Arial" font-size="22" font-weight="750" fill="#22c55e">Rayan</text>
+<rect x="70" y="1055" width="2060" height="118" rx="12" fill="#1e3a5f" stroke="#2563eb" stroke-width="3"/>
+<text x="100" y="1100" font-family="Inter, Arial" font-size="26" font-weight="850" fill="#dbeafe">Quick read</text>
+<text x="100" y="1134" font-family="Inter, Arial" font-size="23" font-weight="650" fill="#dbeafe">Group C: Brazil, Morocco, Haiti, Scotland | First match: Brazil vs Morocco, 13 June 2026</text>
+<text x="100" y="1166" font-family="Inter, Arial" font-size="19" fill="#bfdbfe">Source: FIFA official squad list, version published 3 June 2026.</text>
+</svg>
