@@ -5,12 +5,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import time
 from pathlib import Path
 
 
-DEFAULT_STATE_DIR = Path("/Users/fabricioartur/Codex/excalidraw/state")
+DEFAULT_STATE_DIR = Path(os.environ.get("CODEX_EXCALIDRAW_STATE_DIR", Path.home() / "Codex" / "excalidraw" / "state"))
 
 
 def ensure_dir(path: Path) -> None:
