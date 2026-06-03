@@ -1,0 +1,4 @@
+interface:
+  display_name: "Excalidraw"
+  short_description: "Create and edit Excalidraw diagrams"
+  default_prompt: "Use $excalidraw to create an editable diagram with a chat preview and a ready Excalidraw Web link."
