@@ -24,7 +24,7 @@ Important boundary: this skill can create editable files and preview pages, but 
    - Return the preview image, the local preview page path, and the ready Excalidraw Web URL.
    - The local preview page must include an **Open in Excalidraw** button that points directly to the ready web URL.
    - Use `--no-web-link` only when the user explicitly asks for local-only/offline output or refuses network access.
-   - Persist a copy of the latest diagram in `/Users/fabricioartur/Codex/excalidraw/state` with `scripts/session_state.py save` so later edits can reuse it.
+   - Persist a copy of the latest diagram in the default state directory, or in `CODEX_EXCALIDRAW_STATE_DIR` when configured, with `scripts/session_state.py save` so later edits can reuse it.
 4. Choose the fastest path:
    - For simple node-and-edge diagrams, use `scripts/generate_excalidraw.py`.
    - For soccer/football roster or tactical squad diagrams, use `scripts/create_tactical_roster.py`; do not hand-write the scene unless the template cannot represent the request.
@@ -47,7 +47,7 @@ When the user asks for a change to the previous diagram, do not start from scrat
 1. Run:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/session_state.py show
+python3 ~/.codex/skills/excalidraw/scripts/session_state.py show
 ```
 
 2. If `exists` is true and `scene` points to a readable `.excalidraw`, load that file and modify only the requested parts.
@@ -67,7 +67,7 @@ Use the right handoff based on what the environment supports:
 - **File handoff**: create `.excalidraw` only. Best when the user just needs an editable file.
 - **Web-link handoff**: create temporary files under `/private/tmp`, use the default web upload, return the `https://excalidraw.com/#json=...` URL plus preview image and preview HTML. This is the default because it gives the user a ready one-click Excalidraw Web path.
 - **Preview handoff**: create `.excalidraw`, `-preview.svg`, and `-preview.html` without upload by passing `--no-web-link`. Use this when the user wants local-only/offline output or does not grant network permission.
-- **Session-state handoff**: after creating or editing, copy the latest scene, preview, and spec into `/Users/fabricioartur/Codex/excalidraw/state` with `scripts/session_state.py`. This makes follow-up edits faster and safer.
+- **Session-state handoff**: after creating or editing, copy the latest scene, preview, and spec into the default state directory with `scripts/session_state.py`. This makes follow-up edits faster and safer.
 - **MCP widget handoff**: use a dedicated Excalidraw MCP/app integration if available. This is required for inline editing in chat, preserving manual edits via checkpoint IDs, and one-click open/edit actions backed by the host UI.
 
 Do not describe preview HTML as equivalent to a native MCP widget. Explain that it is a local approximation: the button exists in the preview page, not as a native button embedded in the chat transcript.
@@ -90,7 +90,7 @@ Read `references/visual-layouts.md` for pattern-specific guidance, `references/q
 For football/soccer roster diagrams, prefer ready web-link generation:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/create_tactical_roster.py - --name brazil-2026 --web-link
+python3 ~/.codex/skills/excalidraw/scripts/create_tactical_roster.py - --name brazil-2026 --web-link
 ```
 
 Pass the roster spec through stdin. The template enforces exactly 11 starters, short readable field labels, side-panel roster cards, SVG preview generation, and optional Excalidraw Web upload.
@@ -98,10 +98,10 @@ Pass the roster spec through stdin. The template enforces exactly 11 starters, s
 For landmark/building elevation diagrams, prefer ready web-link generation:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/create_building_elevation.py - --name empire-state --web-link
+python3 ~/.codex/skills/excalidraw/scripts/create_building_elevation.py - --name empire-state --web-link
 ```
 
-Pass the building spec through stdin or reuse a spec from `/Users/fabricioartur/Codex/excalidraw/specs/`. The template creates a composed elevation, fact panel, callouts, SVG preview, validation, and optional Excalidraw Web upload.
+Pass the building spec through stdin or reuse a spec from `<workspace>/excalidraw/specs/`. The template creates a composed elevation, fact panel, callouts, SVG preview, validation, and optional Excalidraw Web upload.
 
 Create a compact spec JSON:
 
@@ -124,19 +124,19 @@ Create a compact spec JSON:
 Then run:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/generate_excalidraw.py spec.json output.excalidraw
+python3 ~/.codex/skills/excalidraw/scripts/generate_excalidraw.py spec.json output.excalidraw
 ```
 
 For a Claude-style handoff with a visible preview and browser page, run:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/generate_excalidraw.py spec.json output.excalidraw --preview
+python3 ~/.codex/skills/excalidraw/scripts/generate_excalidraw.py spec.json output.excalidraw --preview
 ```
 
 For the default web-link handoff, pass the spec through stdin:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/create_web_diagram.py - --name checkout-flow
+python3 ~/.codex/skills/excalidraw/scripts/create_web_diagram.py - --name checkout-flow
 ```
 
 The command prints JSON containing `url`, `preview_svg`, `preview_html`, `excalidraw`, `spec`, `element_count`, and `temporary_dir`. In the default mode, `url` is a ready `https://excalidraw.com/#json=...` link and `preview_html` contains an **Open in Excalidraw** button pointing to it. Use this command for normal user requests so Codex does not need to create temp files manually.
@@ -144,7 +144,7 @@ The command prints JSON containing `url`, `preview_svg`, `preview_html`, `excali
 After generation, persist the latest diagram for follow-up edits:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/session_state.py save \
+python3 ~/.codex/skills/excalidraw/scripts/session_state.py save \
   --scene /path/to/output.excalidraw \
   --preview /path/to/output-preview.svg \
   --html /path/to/output-preview.html \
@@ -156,7 +156,7 @@ python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/session_state.py s
 For local-only/offline output, skip the upload:
 
 ```bash
-python3 /Users/fabricioartur/.codex/skills/excalidraw/scripts/create_web_diagram.py spec.json --name checkout-flow --no-web-link
+python3 ~/.codex/skills/excalidraw/scripts/create_web_diagram.py spec.json --name checkout-flow --no-web-link
 ```
 
 If the user does not want files saved in their workspace, do not use `apply_patch` or manual file creation for `/private/tmp`. Use `create_web_diagram.py`, which handles staging safely.
