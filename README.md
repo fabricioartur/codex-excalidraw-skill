@@ -1,8 +1,10 @@
 # Excalidraw Skill for Codex
 
-This repository contains a Codex skill for creating editable Excalidraw diagrams.
+This repository contains an original Codex skill created by **Fabricio Artur** for generating editable Excalidraw diagrams directly from natural-language requests.
 
-The skill generates real `.excalidraw` JSON, preview SVG/HTML files, and ready-to-open Excalidraw Web links. It also keeps the latest generated diagram in local state so follow-up requests can edit the previous scene instead of redrawing everything from scratch.
+I built this project to explore how far Codex skills can go beyond static file generation: creating real `.excalidraw` JSON, preview SVG/HTML files, ready-to-open Excalidraw Web links, and reusable local state so follow-up requests can edit the previous scene instead of redrawing everything from scratch.
+
+This is not a copy of an existing skill. It is my own implementation, designed through hands-on iteration, testing, and refinement inside Codex.
 
 ## What It Does
 
@@ -55,3 +57,11 @@ Use this folder as the versionable working source. The folder `~/.codex/skills/e
 For iterations, the skill should save the latest diagram in `state/`. This lets requests like "increase the text size", "change the color", or "add a section" reuse the previous scene instead of redrawing everything.
 
 When a pattern appears for the second time, record it in `notes/template-backlog.md`; before the third time, prefer creating a template.
+
+## Authorship
+
+Created, designed, and iterated by **Fabricio Artur**.
+
+Built as an original Codex skill experiment to make Excalidraw diagram generation faster, more editable, and more useful for real workflows.
+
+Made by Fabricio Artur.
