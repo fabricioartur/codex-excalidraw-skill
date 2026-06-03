@@ -32,7 +32,7 @@ The skill generates real `.excalidraw` JSON, preview SVG/HTML files, and ready-t
 Sync command:
 
 ```bash
-rsync -a --delete /Users/fabricioartur/Codex/excalidraw/skill/ /Users/fabricioartur/.codex/skills/excalidraw/
+rsync -a --delete ./skill/ ~/.codex/skills/excalidraw/
 ```
 
 ## GitHub Publishing Notes
