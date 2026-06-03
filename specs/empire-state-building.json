@@ -1,0 +1,91 @@
+{
+  "title": "Empire State Building — schematic diagram",
+  "subtitle": "Conceptual elevation: Art Deco tower, observation decks, and spire",
+  "ground_label": "Midtown Manhattan / urban base",
+  "height_labels": [
+    {
+      "text": "1,454 ft / 443 m\nwith antenna",
+      "x": 90,
+      "y": 120
+    },
+    {
+      "text": "1,250 ft / 381 m\nroof height",
+      "x": 92,
+      "y": 300
+    }
+  ],
+  "bands": [
+    {
+      "x": 455,
+      "y": 545,
+      "w": 230,
+      "label": "86th observation deck",
+      "label_x": 695,
+      "label_y": 535
+    },
+    {
+      "x": 520,
+      "y": 246,
+      "w": 100,
+      "label": "102nd observation deck",
+      "label_x": 690,
+      "label_y": 235
+    }
+  ],
+  "callouts": [
+    {
+      "label": "Art Deco setbacks",
+      "x": 780,
+      "y": 382,
+      "from": [
+        750,
+        395
+      ],
+      "to": [
+        635,
+        420
+      ]
+    },
+    {
+      "label": "Spire / antenna",
+      "x": 805,
+      "y": 135,
+      "color": "#1d4ed8",
+      "from": [
+        785,
+        148
+      ],
+      "to": [
+        590,
+        90
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Local",
+      "value": "New York City"
+    },
+    {
+      "label": "Style",
+      "value": "Art Deco"
+    },
+    {
+      "label": "Opened",
+      "value": "1931"
+    },
+    {
+      "label": "Floors",
+      "value": "102"
+    },
+    {
+      "label": "Observ.",
+      "value": "86th and 102nd"
+    },
+    {
+      "label": "Use",
+      "value": "tourism + offices"
+    }
+  ],
+  "note": "Note: illustrative and editable diagram; proportions simplified for readability in Excalidraw."
+}
