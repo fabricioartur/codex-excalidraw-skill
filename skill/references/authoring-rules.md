@@ -7,7 +7,7 @@ Use these rules when creating custom Excalidraw scenes quickly.
 Before writing a custom one-off script:
 
 1. Check whether an existing template script can represent the request.
-2. If no template exists, create a compact reusable spec in `/Users/fabricioartur/Codex/excalidraw/specs/` when the subject could recur.
+2. If no template exists, create a compact reusable spec in `<workspace>/excalidraw/specs/` when the subject could recur.
 3. Use `scene_primitives.py` for shapes, text, lines, validation, state, and sharing.
 4. Save the final scene with `session_state.py save` so follow-up edits can reuse it.
 
