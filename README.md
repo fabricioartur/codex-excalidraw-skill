@@ -10,9 +10,17 @@ This is not a copy of an existing skill. It is my own implementation, designed t
 
 This is an example generated with the skill: an editable Excalidraw-style tactical diagram for Brazil's 2026 FIFA World Cup squad.
 
-![Brazil National Team FIFA World Cup 2026 Excalidraw example](examples/brazil-world-cup-2026-official-squad/brazil-world-cup-2026-official-squad-preview.svg)
+![Brazil National Team FIFA World Cup 2026 Excalidraw example](examples/brazil-world-cup-2026-official-squad/brazil-world-cup-2026-official-squad-edited-preview.svg)
 
 The diagram is generated as structured Excalidraw data, so it can be opened, edited, and iterated instead of being treated as a static screenshot.
+
+## Quick Download
+
+For the easiest setup, download the packaged release:
+
+[Download codex-excalidraw-skill.zip](https://github.com/fabricioartur/codex-excalidraw-skill/releases/latest/download/codex-excalidraw-skill-v1.0.0.zip)
+
+The package includes the skill, examples, specs, notes, and README. It intentionally excludes local runtime state so no private working diagram is bundled by accident.
 
 ## What It Does
 
