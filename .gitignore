@@ -8,4 +8,5 @@ state/
 
 # Temporary or ad-hoc output folders should stay out of git unless promoted as examples.
 tmp/
+dist/
 *.url
