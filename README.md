@@ -16,11 +16,11 @@ The diagram is generated as structured Excalidraw data, so it can be opened, edi
 
 ## Quick Download
 
-For the easiest setup, download the packaged release:
+For the easiest setup, download the repository as a ZIP:
 
-[Download codex-excalidraw-skill.zip](https://github.com/fabricioartur/codex-excalidraw-skill/releases/latest/download/codex-excalidraw-skill-v1.0.0.zip)
+[Download codex-excalidraw-skill.zip](https://github.com/fabricioartur/codex-excalidraw-skill/archive/refs/heads/main.zip)
 
-The package includes the skill, examples, specs, notes, and README. It intentionally excludes local runtime state so no private working diagram is bundled by accident.
+The ZIP includes the skill, examples, specs, notes, and README. It intentionally excludes local runtime state because `state/` is not versioned.
 
 ## What It Does
 
