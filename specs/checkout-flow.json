@@ -1,0 +1,30 @@
+{
+  "title": "Checkout Flow",
+  "direction": "LR",
+  "nodes": [
+    {
+      "id": "buyer",
+      "label": "Buyer"
+    },
+    {
+      "id": "storefront",
+      "label": "Storefront"
+    },
+    {
+      "id": "payment",
+      "label": "Payment API"
+    }
+  ],
+  "edges": [
+    {
+      "from": "buyer",
+      "to": "storefront",
+      "label": "Selects item"
+    },
+    {
+      "from": "storefront",
+      "to": "payment",
+      "label": "Authorizes"
+    }
+  ]
+}
